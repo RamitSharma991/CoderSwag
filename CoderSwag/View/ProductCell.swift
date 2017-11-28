@@ -1,5 +1,5 @@
 //
-//  ProductClassCollectionViewCell.swift
+//  ProductCell.swift
 //  CoderSwag
 //
 //  Created by Ramit sharma on 27/11/17.
@@ -8,6 +8,9 @@
 
 import UIKit
 
-class ProductClassCollectionViewCell: UICollectionViewCell {
+class ProductCell: UICollectionViewCell {
     
+    @IBOutlet weak var productImageView : UIImageView!
+    @IBOutlet weak var productTitle: UILabel!
+    @IBOutlet weak var productPrice : UILabel!    
 }
